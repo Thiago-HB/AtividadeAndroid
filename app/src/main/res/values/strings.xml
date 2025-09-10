@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="Config_txt">Config</string>
+    <string name="Exit_txt">Exit</string>
+    <string name="ToobarTela1">AV_1</string>
+    <string name="av_1">AV_1</string>
+    <string name="botaoentrada">Entrar</string>
+    <string name="botaosair">Sair</string>
+    <string name="tela3Sair">sair</string>
+    <string name="tela3entrar">Entrar</string>
+    <string name="Config3_txt">Configuraçao</string>
+    <string name="UserName_1">User Name:</string>
+    <string name="PassWord1">PassWord</string>
+    <string name="Password2">Password</string>
+    <string name="Nometela3">UsarName</string>
+    <string name="PassportTela3">Passport</string>
+    <string name="PassportTela3.2">Passport</string>
+
+</resources>
