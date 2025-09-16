@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EBEB"
+    tools:context=".ConfigActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTela"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@color/material_dynamic_neutral80"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/toolbar_title2"
+        android:layout_width="380dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/Config3_txt"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarTela"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarTela"
+        app:layout_constraintStart_toStartOf="@+id/ToolbarTela1"
+        app:layout_constraintTop_toTopOf="@+id/toolbarTela"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/botaoEntrar"
+        android:layout_width="135dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/botaoentrada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botaoSair"
+        android:layout_width="135dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/botaosair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="292dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Nometela3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarTela" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="292dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/PassWord1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarTela" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="292dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/PassWord1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/UserName_1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarTela" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PassWord1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PassWord1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
